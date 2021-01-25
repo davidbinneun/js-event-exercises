@@ -1,1 +1,3 @@
-<input type="button" onclick="countRabbits()" value="Count rabbits!"></input>
+document.getElementById("button").addEventListener("click", function() {
+    document.getElementById("text").hidden = true;
+  });
