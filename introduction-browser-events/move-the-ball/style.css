@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+}
+
+#field {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    background-image: url("./grass.jpg");
+    background-repeat: repeat;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1s all;
+}
